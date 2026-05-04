@@ -1,0 +1,51 @@
+:root {
+  color-scheme: light;
+  --color-text-primary: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-text-link: #2563eb;
+  --color-bg: #f9fafb;
+  --color-card: #ffffff;
+  --color-border: #e5e7eb;
+  --color-accent: #5b21b6;
+  --color-accent-bar: #6d28d9;
+  --color-tag-premium-bg: #f3f4f6;
+  --color-tag-premium-fg: #374151;
+  --color-tag-quinte-bg: #ef4444;
+  --color-tag-quinte-fg: #ffffff;
+  --color-tag-pick5-bg: #facc15;
+  --color-tag-pick5-fg: #422006;
+  --color-status-up-bg: #f3f4f6;
+  --color-status-up-fg: #4b5563;
+  --color-table-header-bg: #f9fafb;
+  --color-row-hover: #f3f4f6;
+  --color-avis-1: #22c55e;
+  --color-avis-2: #facc15;
+  --color-avis-3: #ef4444;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-primary);
+  background: var(--color-bg);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}

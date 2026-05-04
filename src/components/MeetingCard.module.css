@@ -1,0 +1,71 @@
+.meeting {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.heure {
+  background: var(--color-status-up-bg);
+  color: var(--color-status-up-fg);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-accent);
+}
+
+.title strong {
+  color: var(--color-text-primary);
+}
+
+.count {
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
+
+.tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.tagPremium {
+  background: var(--color-tag-premium-bg);
+  color: var(--color-tag-premium-fg);
+}
+
+.tagQuinte {
+  background: var(--color-tag-quinte-bg);
+  color: var(--color-tag-quinte-fg);
+}
+
+.tagPick5 {
+  background: var(--color-tag-pick5-bg);
+  color: var(--color-tag-pick5-fg);
+}
+
+.races {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}

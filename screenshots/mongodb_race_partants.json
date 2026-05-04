@@ -1,0 +1,1527 @@
+{
+  "_id": "2022-07-08-1475-7",
+  "courseHippodrome": {
+    "_id": 259235,
+    "dateCourse": "2022-07-08",
+    "heureCourse": "22:15",
+    "discipline": "A",
+    "prix": "PRIX DE BAGNOLES DE L'ORNE",
+    "nomHippodrome": "CABOURG",
+    "numHippodrome": 1475,
+    "numCourse": 7,
+    "numCourseInterne": 6,
+    "group": "",
+    "statut": 16,
+    "live": false,
+    "allocation": 21000,
+    "corde": "D",
+    "autostart": true,
+    "distance": 2050,
+    "categorie": "E",
+    "typePiste": "sable",
+    "codeParcours": "",
+    "conditionsEngagement": [
+      "Départ à l'autostart",
+      "Pour poulains entiers et hongres de 3 ans, n'ayant pas gagné 13.000."
+    ],
+    "classement": "7;2;1;5;6",
+    "countPartant": 8,
+    "videoUrl": "20220708_35029111_00000HR",
+    "videoType": "E",
+    "thumbnailUrl": "20220708_35029111_00000HR-1.jpg",
+    "cc12": "Départ à l'autostart",
+    "track": true,
+    "annule": false,
+    "heat": false,
+    "premium": true,
+    "numReunion": 1,
+    "csi": false,
+    "partantList": [
+      {
+        "numSire": "19328504F",
+        "numCheval": "ZWt8ZgoFAgcS",
+        "nomCheval": "JOKER DE L'EPINE",
+        "pere": "JAM PRIDEM",
+        "mere": "LEONIE DU BOUFFEY",
+        "nomPereMere": "DAHIR DE PRELONG",
+        "numeroPere": "bWVaYwYCBwAT",
+        "numeroMere": "bWt8YwIGAAcW",
+        "numeroPereMere": "bWN7ZAYFAQsF",
+        "numeroSirePere": "97074253G",
+        "numeroSireMere": "99370624B",
+        "numeroSirePereMere": "91404538Q",
+        "sexe": "M",
+        "annee": 2019,
+        "age": 3,
+        "cvcId": 0,
+        "prenomProprietaire": "Richard",
+        "nomProprietaire": "FITOUSSI",
+        "numProprietaire": "ZWJbYAQGeQ",
+        "libelleProprietaire": "R. FITOUSSI",
+        "prenomEntraineur": "Pierre",
+        "nomEntraineur": "VERCRUYSSE",
+        "numEntraineur": "bWR5YgcAZg",
+        "libelleEntraineur": "P. VERCRUYSSE",
+        "prenomJockey": "Bryan",
+        "nomJockey": "COPPENS",
+        "numJockey": "YGt2ZgQEZQ",
+        "libelleJockey": "B. COPPENS",
+        "ferrure": "5",
+        "distance": 2050,
+        "reduction": "1'17\"5",
+        "temps": "2'38\"7",
+        "record": "1'15\"7",
+        "gain": 12840,
+        "crackSeries": 3388,
+        "sommeReclame": 0,
+        "musique": "3a Da 8a Da 9a (21) 9a 4a 1a",
+        "poids": 0,
+        "ordre": 7,
+        "rang": "1 ",
+        "rangInterne": 1,
+        "allocation": 9450,
+        "nonPartant": false,
+        "idCasaque": "0710283",
+        "nomj": "B. COPPENS",
+        "premiereFoisD4": false,
+        "premiereFoisDA": false,
+        "premiereFoisDP": false,
+        "premiereFoisFerrure": false,
+        "avisEntraineur": 2,
+        "avisEntraineurPartant": 2,
+        "avisEntraineurHeat": 0,
+        "idVideoHeat": "",
+        "idVideoInterviewAvantCourse": "",
+        "idVideoInterviewApresCourse": "",
+        "avancement": "PAR",
+        "musiques": [
+          {
+            "perf": "3A",
+            "course": {
+              "key": "2022-06-20-1400-6",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "3 "
+                },
+                {
+                  "numSire": "19327485N",
+                  "numCheval": "ZWt8ZgUECgYa",
+                  "nomCheval": "JAZZ MONEY",
+                  "rang": "4 "
+                },
+                {
+                  "numSire": "19337896X",
+                  "numCheval": "ZWt8ZwUICwUM",
+                  "nomCheval": "JAFAR DE FAEL",
+                  "rang": "6 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "DA",
+            "course": {
+              "key": "2022-06-13-1400-4",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "DA"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "8A",
+            "course": {
+              "key": "2022-05-25-5901-4",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "08"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "DA",
+            "course": {
+              "key": "2022-05-08-202-2",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "DA"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "9A",
+            "course": {
+              "key": "2022-04-30-6102-8",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "09"
+                }
+              ]
+            }
+          }
+        ],
+        "partantPresent": false,
+        "partantOrigine": false,
+        "gainsMoyensFr": 1605,
+        "firstAutostart": false,
+        "firstFrance": false,
+        "firstMonte": false,
+        "firstGP": false,
+        "firstCorde": false,
+        "firstJockey": false,
+        "firstSpecialiteMonte": false,
+        "firstReclame": false,
+        "firstPisteHerbe": false,
+        "firstPisteDur": false,
+        "courseRapprochee": false,
+        "changementEntraineur": false,
+        "nouveaurecord": false,
+        "firstFerrure": false,
+        "elev1": "bWJ8YQMAaw",
+        "libelleElev1": "H. SORIEUX",
+        "nomElev1": "SORIEUX",
+        "elev2": "bWV6ZQoJfg",
+        "libelleElev2": "R. SORIEUX",
+        "nomElev2": "SORIEUX",
+        "elev3": "",
+        "libelleElev3": " ",
+        "nomElev3": "",
+        "elev4": "",
+        "libelleElev4": " ",
+        "nomElev4": "",
+        "recordAbsolu": false,
+        "forSale": false,
+        "nbCourseJockEntr": 2,
+        "nbVictJockEntr": 0,
+        "rapportProbable": 3.3
+      },
+      {
+        "numSire": "19327485N",
+        "numCheval": "ZWt8ZgUECgYa",
+        "nomCheval": "JAZZ MONEY",
+        "pere": "CRISTAL MONEY",
+        "mere": "DESTINEE CASH",
+        "nomPereMere": "READY CASH",
+        "numeroPere": "ZWBbYgEICwUN",
+        "numeroMere": "ZWF8YQIICwUS",
+        "numeroPereMere": "ZGdabQIFBQIB",
+        "numeroSirePere": "12163896Y",
+        "numeroSireMere": "13350896F",
+        "numeroSirePereMere": "05090571U",
+        "sexe": "M",
+        "annee": 2019,
+        "age": 3,
+        "cvcId": 0,
+        "prenomProprietaire": "Ecurie Thierry",
+        "nomProprietaire": "DUVALDESTIN",
+        "numProprietaire": "YWt3bQAGZg",
+        "libelleProprietaire": "Ecurie T. DUVALDESTIN",
+        "prenomEntraineur": "Thierry",
+        "nomEntraineur": "DUVALDESTIN",
+        "numEntraineur": "Z2N4YwICZQ",
+        "libelleEntraineur": "T. DUVALDESTIN",
+        "prenomJockey": "Théo",
+        "nomJockey": "DUVALDESTIN",
+        "numJockey": "YWt2ZgsGYA",
+        "libelleJockey": "THEO DUVALDESTIN",
+        "ferrure": "7",
+        "distance": 2050,
+        "reduction": "1'17\"6",
+        "temps": "2'38\"9",
+        "record": "1'16\"1",
+        "gain": 11640,
+        "crackSeries": 5393,
+        "sommeReclame": 0,
+        "musique": "4a 1a 2a",
+        "poids": 0,
+        "ordre": 2,
+        "rang": "2 ",
+        "rangInterne": 2,
+        "allocation": 5250,
+        "nonPartant": false,
+        "idCasaque": "4192503",
+        "idCasaqueNew": "8386",
+        "nomj": "THEO DUVALDESTIN",
+        "premiereFoisD4": false,
+        "premiereFoisDA": false,
+        "premiereFoisDP": false,
+        "premiereFoisFerrure": true,
+        "avisEntraineur": 1,
+        "avisEntraineurPartant": 1,
+        "avisEntraineurHeat": 0,
+        "idVideoHeat": "",
+        "idVideoInterviewAvantCourse": "",
+        "idVideoInterviewApresCourse": "",
+        "avancement": "PAR",
+        "musiques": [
+          {
+            "perf": "4A",
+            "course": {
+              "key": "2022-06-20-1400-6",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "3 "
+                },
+                {
+                  "numSire": "19327485N",
+                  "numCheval": "ZWt8ZgUECgYa",
+                  "nomCheval": "JAZZ MONEY",
+                  "rang": "4 "
+                },
+                {
+                  "numSire": "19337896X",
+                  "numCheval": "ZWt8ZwUICwUM",
+                  "nomCheval": "JAFAR DE FAEL",
+                  "rang": "6 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "1A",
+            "course": {
+              "key": "2022-06-12-6101-7",
+              "partantList": [
+                {
+                  "numSire": "19327485N",
+                  "numCheval": "ZWt8ZgUECgYa",
+                  "nomCheval": "JAZZ MONEY",
+                  "rang": "1 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "2A",
+            "course": {
+              "key": "2022-05-22-7801-1",
+              "partantList": [
+                {
+                  "numSire": "19327485N",
+                  "numCheval": "ZWt8ZgUECgYa",
+                  "nomCheval": "JAZZ MONEY",
+                  "rang": "2 "
+                }
+              ]
+            }
+          }
+        ],
+        "partantPresent": false,
+        "partantOrigine": false,
+        "gainsMoyensFr": 3880,
+        "firstAutostart": true,
+        "firstFrance": false,
+        "firstMonte": false,
+        "firstGP": false,
+        "firstCorde": false,
+        "firstJockey": true,
+        "firstSpecialiteMonte": false,
+        "firstReclame": false,
+        "firstPisteHerbe": false,
+        "firstPisteDur": false,
+        "courseRapprochee": false,
+        "changementEntraineur": false,
+        "nouveaurecord": false,
+        "firstFerrure": true,
+        "elev1": "YWt3bQAGZg",
+        "libelleElev1": "Ecurie T. DUVALDESTIN",
+        "nomElev1": "DUVALDESTIN",
+        "elev2": "",
+        "libelleElev2": " ",
+        "nomElev2": "",
+        "elev3": "",
+        "libelleElev3": " ",
+        "nomElev3": "",
+        "elev4": "",
+        "libelleElev4": " ",
+        "nomElev4": "",
+        "recordAbsolu": false,
+        "forSale": false,
+        "nbCourseJockEntr": 11,
+        "nbVictJockEntr": 1,
+        "rapportProbable": 1.8
+      },
+      {
+        "numSire": "19334093F",
+        "numCheval": "ZWt8ZwYACwAS",
+        "nomCheval": "JUNIOR MESLOIS",
+        "pere": "VIKING DE VAL",
+        "mere": "CARLOTTA MESLOISE",
+        "nomPereMere": "LOVE YOU",
+        "numeroPere": "ZGtbYwEDAgUE",
+        "numeroMere": "ZWBbbAIGBAEO",
+        "numeroPereMere": "bWt8YQIGBgIM",
+        "numeroSirePere": "09173306P",
+        "numeroSireMere": "12180662Z",
+        "numeroSirePereMere": "99350641X",
+        "sexe": "H",
+        "annee": 2019,
+        "age": 3,
+        "cvcId": 0,
+        "prenomProprietaire": "Christophe",
+        "nomProprietaire": "BOUGON",
+        "numProprietaire": "ZWBbZQcHdQ",
+        "libelleProprietaire": "C. BOUGON",
+        "prenomEntraineur": "Jérôme",
+        "nomEntraineur": "DAVID",
+        "numEntraineur": "ZmRaYgAFfg",
+        "libelleEntraineur": "J. DAVID",
+        "prenomJockey": "Alexis",
+        "nomJockey": "COLLETTE",
+        "numJockey": "YWN9YQYCfA",
+        "libelleJockey": "A. COLLETTE",
+        "ferrure": "0",
+        "distance": 2050,
+        "reduction": "1'17\"6",
+        "temps": "2'39\"1",
+        "record": "1'16\"3",
+        "specialiteRecord": "A",
+        "gain": 12820,
+        "crackSeries": 3231,
+        "sommeReclame": 0,
+        "musique": "3a 8a 0a (21) 0a 6a 5a 8a 1a 4a 6a",
+        "poids": 0,
+        "ordre": 1,
+        "rang": "3 ",
+        "rangInterne": 3,
+        "allocation": 2940,
+        "nonPartant": false,
+        "idCasaque": "0848120",
+        "idCasaqueNew": "1924",
+        "nomj": "A. COLLETTE",
+        "premiereFoisD4": false,
+        "premiereFoisDA": false,
+        "premiereFoisDP": false,
+        "premiereFoisFerrure": false,
+        "avisEntraineur": 2,
+        "avisEntraineurPartant": 2,
+        "avisEntraineurHeat": 0,
+        "idVideoHeat": "",
+        "idVideoInterviewAvantCourse": "",
+        "idVideoInterviewApresCourse": "",
+        "avancement": "PAR",
+        "musiques": [
+          {
+            "perf": "3A",
+            "course": {
+              "key": "2022-06-16-4901-6",
+              "partantList": [
+                {
+                  "numSire": "19334093F",
+                  "numCheval": "ZWt8ZwYACwAS",
+                  "nomCheval": "JUNIOR MESLOIS",
+                  "rang": "3 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "8A",
+            "course": {
+              "key": "2022-06-05-6102-8",
+              "partantList": [
+                {
+                  "numSire": "19334093F",
+                  "numCheval": "ZWt8ZwYACwAS",
+                  "nomCheval": "JUNIOR MESLOIS",
+                  "rang": "08"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "0A",
+            "course": {
+              "key": "2022-04-15-6102-2",
+              "partantList": [
+                {
+                  "numSire": "19334093F",
+                  "numCheval": "ZWt8ZwYACwAS",
+                  "nomCheval": "JUNIOR MESLOIS",
+                  "rang": "0"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "0A",
+            "course": {
+              "key": "2021-11-03-7500-3",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "09"
+                },
+                {
+                  "numSire": "19334093F",
+                  "numCheval": "ZWt8ZwYACwAS",
+                  "nomCheval": "JUNIOR MESLOIS",
+                  "rang": "0"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "6A",
+            "course": {
+              "key": "2021-10-23-1400-2",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "4 "
+                },
+                {
+                  "numSire": "19334093F",
+                  "numCheval": "ZWt8ZwYACwAS",
+                  "nomCheval": "JUNIOR MESLOIS",
+                  "rang": "6 "
+                }
+              ]
+            }
+          }
+        ],
+        "partantPresent": false,
+        "partantOrigine": false,
+        "gainsMoyensFr": 1282,
+        "firstAutostart": false,
+        "firstFrance": false,
+        "firstMonte": false,
+        "firstGP": false,
+        "firstCorde": false,
+        "firstJockey": true,
+        "firstSpecialiteMonte": false,
+        "firstReclame": false,
+        "firstPisteHerbe": false,
+        "firstPisteDur": false,
+        "courseRapprochee": false,
+        "changementEntraineur": true,
+        "nouveaurecord": true,
+        "firstFerrure": false,
+        "elev1": "ZWt6ZwMEcA",
+        "libelleElev1": "Ecurie BOIS DOUFRAY",
+        "nomElev1": "BOIS DOUFRAY",
+        "elev2": "",
+        "libelleElev2": " ",
+        "nomElev2": "",
+        "elev3": "",
+        "libelleElev3": " ",
+        "nomElev3": "",
+        "elev4": "",
+        "libelleElev4": " ",
+        "nomElev4": "",
+        "recordAbsolu": false,
+        "forSale": false,
+        "nbCourseJockEntr": 0,
+        "nbVictJockEntr": 0,
+        "rapportProbable": 14
+      },
+      {
+        "numSire": "19308919T",
+        "numCheval": "ZWt8ZAoJAwoA",
+        "nomCheval": "JOE LOUIS",
+        "pere": "ERIDAN",
+        "mere": "TOOTSIE SMILING",
+        "nomPereMere": "GOETMALS WOOD",
+        "numeroPere": "ZWZ7YwMABgMc",
+        "numeroMere": "ZGV8bAEEBgMD",
+        "numeroPereMere": "bWZ9bAMIAgER",
+        "numeroSirePere": "14471040H",
+        "numeroSireMere": "07383440W",
+        "numeroSirePereMere": "94281802E",
+        "sexe": "H",
+        "annee": 2019,
+        "age": 3,
+        "cvcId": 0,
+        "prenomProprietaire": "Sébastien",
+        "nomProprietaire": "DEWULF",
+        "numProprietaire": "YGt3ZQcGcw",
+        "libelleProprietaire": "S. DEWULF",
+        "prenomEntraineur": "Sébastien",
+        "nomEntraineur": "GUARATO",
+        "numEntraineur": "YGF9ZwMAag",
+        "libelleEntraineur": "S. GUARATO",
+        "prenomJockey": "Mathieu",
+        "nomJockey": "BRUN",
+        "numJockey": "YGJaZAsIeQ",
+        "libelleJockey": "M. BRUN",
+        "ferrure": "0",
+        "distance": 2050,
+        "reduction": "1'17\"8",
+        "temps": "2'39\"4",
+        "record": "1'19\"1",
+        "gain": 8570,
+        "crackSeries": 6740,
+        "sommeReclame": 0,
+        "musique": "1a 8a 3a Da Da 4a 0a Da Da",
+        "poids": 0,
+        "ordre": 5,
+        "rang": "4 ",
+        "rangInterne": 4,
+        "allocation": 1680,
+        "nonPartant": false,
+        "idCasaque": "3487113",
+        "idCasaqueNew": "14166",
+        "nomj": "M. BRUN",
+        "premiereFoisD4": false,
+        "premiereFoisDA": false,
+        "premiereFoisDP": false,
+        "premiereFoisFerrure": false,
+        "avisEntraineur": 2,
+        "avisEntraineurPartant": 2,
+        "avisEntraineurHeat": 0,
+        "idVideoHeat": "",
+        "idVideoInterviewAvantCourse": "",
+        "idVideoInterviewApresCourse": "",
+        "avancement": "PAR",
+        "musiques": [
+          {
+            "perf": "1A",
+            "course": {
+              "key": "2022-06-26-2701-2",
+              "partantList": [
+                {
+                  "numSire": "19308919T",
+                  "numCheval": "ZWt8ZAoJAwoA",
+                  "nomCheval": "JOE LOUIS",
+                  "rang": "1 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "8A",
+            "course": {
+              "key": "2022-06-16-8002-7",
+              "partantList": [
+                {
+                  "numSire": "19308919T",
+                  "numCheval": "ZWt8ZAoJAwoA",
+                  "nomCheval": "JOE LOUIS",
+                  "rang": "08"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "3A",
+            "course": {
+              "key": "2022-06-06-7611-1",
+              "partantList": [
+                {
+                  "numSire": "19308919T",
+                  "numCheval": "ZWt8ZAoJAwoA",
+                  "nomCheval": "JOE LOUIS",
+                  "rang": "3 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "DA",
+            "course": {
+              "key": "2022-05-22-1409-2",
+              "partantList": [
+                {
+                  "numSire": "19308919T",
+                  "numCheval": "ZWt8ZAoJAwoA",
+                  "nomCheval": "JOE LOUIS",
+                  "rang": "DA"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "DA",
+            "course": {
+              "key": "2022-05-14-5102-4",
+              "partantList": [
+                {
+                  "numSire": "19308919T",
+                  "numCheval": "ZWt8ZAoJAwoA",
+                  "nomCheval": "JOE LOUIS",
+                  "rang": "DA"
+                }
+              ]
+            }
+          }
+        ],
+        "partantPresent": false,
+        "partantOrigine": false,
+        "gainsMoyensFr": 952,
+        "firstAutostart": true,
+        "firstFrance": false,
+        "firstMonte": false,
+        "firstGP": false,
+        "firstCorde": false,
+        "firstJockey": false,
+        "firstSpecialiteMonte": false,
+        "firstReclame": false,
+        "firstPisteHerbe": false,
+        "firstPisteDur": false,
+        "courseRapprochee": false,
+        "changementEntraineur": false,
+        "nouveaurecord": false,
+        "firstFerrure": false,
+        "elev1": "ZWF4YAUFZA",
+        "libelleElev1": "F. BROUILLOUX",
+        "nomElev1": "BROUILLOUX",
+        "elev2": "",
+        "libelleElev2": " ",
+        "nomElev2": "",
+        "elev3": "",
+        "libelleElev3": " ",
+        "nomElev3": "",
+        "elev4": "",
+        "libelleElev4": " ",
+        "nomElev4": "",
+        "recordAbsolu": false,
+        "forSale": false,
+        "nbCourseJockEntr": 0,
+        "nbVictJockEntr": 0,
+        "rapportProbable": 23
+      },
+      {
+        "numSire": "19339072T",
+        "numCheval": "ZWt8ZwsABQEA",
+        "nomCheval": "JUDIYAMA",
+        "pere": "UNIVERS DE PAN",
+        "mere": "UDAYAMA",
+        "nomPereMere": "ECHO",
+        "numeroPere": "ZGpaZAEHBAIe",
+        "numeroMere": "ZGpaZQsCBAIY",
+        "numeroPereMere": "bWBbYgAHAQcE",
+        "numeroSirePere": "08003761J",
+        "numeroSireMere": "08019261L",
+        "numeroSirePereMere": "92162734P",
+        "sexe": "M",
+        "annee": 2019,
+        "age": 3,
+        "cvcId": 0,
+        "prenomProprietaire": "Loïc",
+        "nomProprietaire": "GROUSSARD",
+        "numProprietaire": "YGFaYgoAZw",
+        "libelleProprietaire": "L. GROUSSARD",
+        "prenomEntraineur": "Loïc",
+        "nomEntraineur": "GROUSSARD",
+        "numEntraineur": "YGFaYgoAZw",
+        "libelleEntraineur": "L. GROUSSARD",
+        "prenomJockey": "Franck",
+        "nomJockey": "NIVARD",
+        "numJockey": "Y2J6YwUDdw",
+        "libelleJockey": "F. NIVARD",
+        "ferrure": "0",
+        "distance": 2050,
+        "reduction": "1'17\"9",
+        "temps": "2'39\"7",
+        "record": "1'16\"9",
+        "gain": 10130,
+        "crackSeries": 5263,
+        "sommeReclame": 0,
+        "musique": "2a 0a 0a 3a 0a 8a 2a 8a 4a (21) 5a 9a Da",
+        "poids": 0,
+        "ordre": 6,
+        "rang": "5 ",
+        "rangInterne": 5,
+        "allocation": 1050,
+        "nonPartant": false,
+        "idCasaque": "3014781",
+        "idCasaqueNew": "5869",
+        "nomj": "F. NIVARD",
+        "premiereFoisD4": false,
+        "premiereFoisDA": false,
+        "premiereFoisDP": false,
+        "premiereFoisFerrure": false,
+        "avisEntraineur": 2,
+        "avisEntraineurPartant": 2,
+        "avisEntraineurHeat": 0,
+        "idVideoHeat": "",
+        "idVideoInterviewAvantCourse": "",
+        "idVideoInterviewApresCourse": "",
+        "avancement": "PAR",
+        "musiques": [
+          {
+            "perf": "2A",
+            "course": {
+              "key": "2022-06-26-8602-2",
+              "partantList": [
+                {
+                  "numSire": "19339072T",
+                  "numCheval": "ZWt8ZwsABQEA",
+                  "nomCheval": "JUDIYAMA",
+                  "rang": "2 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "0A",
+            "course": {
+              "key": "2022-06-15-4901-6",
+              "partantList": [
+                {
+                  "numSire": "19339072T",
+                  "numCheval": "ZWt8ZwsABQEA",
+                  "nomCheval": "JUDIYAMA",
+                  "rang": "0"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "0A",
+            "course": {
+              "key": "2022-05-22-4404-3",
+              "partantList": [
+                {
+                  "numSire": "19339072T",
+                  "numCheval": "ZWt8ZwsABQEA",
+                  "nomCheval": "JUDIYAMA",
+                  "rang": "0"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "3A",
+            "course": {
+              "key": "2022-05-01-2701-2",
+              "partantList": [
+                {
+                  "numSire": "19339072T",
+                  "numCheval": "ZWt8ZwsABQEA",
+                  "nomCheval": "JUDIYAMA",
+                  "rang": "3 "
+                },
+                {
+                  "numSire": "19308919T",
+                  "numCheval": "ZWt8ZAoJAwoA",
+                  "nomCheval": "JOE LOUIS",
+                  "rang": "4 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "0A",
+            "course": {
+              "key": "2022-03-28-6102-2",
+              "partantList": [
+                {
+                  "numSire": "19339072T",
+                  "numCheval": "ZWt8ZwsABQEA",
+                  "nomCheval": "JUDIYAMA",
+                  "rang": "0"
+                }
+              ]
+            }
+          }
+        ],
+        "partantPresent": false,
+        "partantOrigine": false,
+        "gainsMoyensFr": 844,
+        "firstAutostart": false,
+        "firstFrance": false,
+        "firstMonte": false,
+        "firstGP": false,
+        "firstCorde": false,
+        "firstJockey": true,
+        "firstSpecialiteMonte": false,
+        "firstReclame": false,
+        "firstPisteHerbe": false,
+        "firstPisteDur": false,
+        "courseRapprochee": false,
+        "changementEntraineur": false,
+        "nouveaurecord": false,
+        "firstFerrure": false,
+        "elev1": "YGFaYgoAZw",
+        "libelleElev1": "L. GROUSSARD",
+        "nomElev1": "GROUSSARD",
+        "elev2": "",
+        "libelleElev2": " ",
+        "nomElev2": "",
+        "elev3": "",
+        "libelleElev3": " ",
+        "nomElev3": "",
+        "elev4": "",
+        "libelleElev4": " ",
+        "nomElev4": "",
+        "recordAbsolu": false,
+        "forSale": false,
+        "nbCourseJockEntr": 0,
+        "nbVictJockEntr": 0,
+        "rapportProbable": 10
+      },
+      {
+        "numSire": "19336987K",
+        "numCheval": "ZWt8ZwQJCgQf",
+        "nomCheval": "JOHNNY QUICK",
+        "pere": "COUP DE POKER",
+        "mere": "DREAM WITH QUICK",
+        "nomPereMere": "TANGO QUICK",
+        "numeroPere": "ZWBbYgEJBAYN",
+        "numeroMere": "ZWF8YwAFAAIV",
+        "numeroPereMere": "ZGV8ZgIHBQMF",
+        "numeroSirePere": "12163965Y",
+        "numeroSireMere": "13372521A",
+        "numeroSirePereMere": "07320770Q",
+        "sexe": "H",
+        "annee": 2019,
+        "age": 3,
+        "cvcId": 0,
+        "prenomProprietaire": "Ecurie",
+        "nomProprietaire": "QUICK STAR",
+        "numProprietaire": "YWJbYQQEZQ",
+        "libelleProprietaire": "Ecurie QUICK STAR",
+        "prenomEntraineur": "Maik",
+        "nomEntraineur": "ESPER",
+        "numEntraineur": "YWJbYQMIZQ",
+        "libelleEntraineur": "M. ESPER",
+        "prenomJockey": "Sébastien",
+        "nomJockey": "ERNAULT",
+        "numJockey": "Z2B2YwIEcw",
+        "libelleJockey": "S. ERNAULT",
+        "ferrure": "0",
+        "distance": 2050,
+        "reduction": "1'18\"0",
+        "temps": "2'39\"8",
+        "record": "1'16\"9",
+        "gain": 11430,
+        "crackSeries": 5431,
+        "sommeReclame": 0,
+        "musique": "5a 6a 3a 6a 1a 5a",
+        "poids": 0,
+        "ordre": 4,
+        "rang": "6 ",
+        "rangInterne": 6,
+        "allocation": 420,
+        "nonPartant": false,
+        "idCasaque": "3510969",
+        "idCasaqueNew": "7050",
+        "nomj": "S. ERNAULT",
+        "premiereFoisD4": false,
+        "premiereFoisDA": false,
+        "premiereFoisDP": false,
+        "premiereFoisFerrure": false,
+        "avisEntraineur": 2,
+        "avisEntraineurPartant": 2,
+        "avisEntraineurHeat": 0,
+        "idVideoHeat": "",
+        "idVideoInterviewAvantCourse": "",
+        "idVideoInterviewApresCourse": "",
+        "avancement": "PAR",
+        "musiques": [
+          {
+            "perf": "5A",
+            "course": {
+              "key": "2022-06-23-7616-4",
+              "partantList": [
+                {
+                  "numSire": "19336987K",
+                  "numCheval": "ZWt8ZwQJCgQf",
+                  "nomCheval": "JOHNNY QUICK",
+                  "rang": "5 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "6A",
+            "course": {
+              "key": "2022-06-08-5305-4",
+              "partantList": [
+                {
+                  "numSire": "19336987K",
+                  "numCheval": "ZWt8ZwQJCgQf",
+                  "nomCheval": "JOHNNY QUICK",
+                  "rang": "6 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "3A",
+            "course": {
+              "key": "2022-05-25-2801-4",
+              "partantList": [
+                {
+                  "numSire": "19336987K",
+                  "numCheval": "ZWt8ZwQJCgQf",
+                  "nomCheval": "JOHNNY QUICK",
+                  "rang": "3 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "6A",
+            "course": {
+              "key": "2022-05-06-5305-2",
+              "partantList": [
+                {
+                  "numSire": "19336987K",
+                  "numCheval": "ZWt8ZwQJCgQf",
+                  "nomCheval": "JOHNNY QUICK",
+                  "rang": "6 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "1A",
+            "course": {
+              "key": "2022-04-24-6101-2",
+              "partantList": [
+                {
+                  "numSire": "19336987K",
+                  "numCheval": "ZWt8ZwQJCgQf",
+                  "nomCheval": "JOHNNY QUICK",
+                  "rang": "1 "
+                }
+              ]
+            }
+          }
+        ],
+        "partantPresent": false,
+        "partantOrigine": false,
+        "gainsMoyensFr": 1905,
+        "firstAutostart": true,
+        "firstFrance": false,
+        "firstMonte": false,
+        "firstGP": false,
+        "firstCorde": true,
+        "firstJockey": false,
+        "firstSpecialiteMonte": false,
+        "firstReclame": false,
+        "firstPisteHerbe": false,
+        "firstPisteDur": false,
+        "courseRapprochee": false,
+        "changementEntraineur": false,
+        "nouveaurecord": false,
+        "firstFerrure": false,
+        "elev1": "YWJbYQQEZQ",
+        "libelleElev1": "Ecurie QUICK STAR",
+        "nomElev1": "QUICK STAR",
+        "elev2": "",
+        "libelleElev2": " ",
+        "nomElev2": "",
+        "elev3": "",
+        "libelleElev3": " ",
+        "nomElev3": "",
+        "elev4": "",
+        "libelleElev4": " ",
+        "nomElev4": "",
+        "recordAbsolu": false,
+        "forSale": false,
+        "nbCourseJockEntr": 0,
+        "nbVictJockEntr": 0,
+        "rapportProbable": 23
+      },
+      {
+        "numSire": "19327285F",
+        "numCheval": "ZWt8ZgUCCgYS",
+        "nomCheval": "JUNIOR DU THENNEY",
+        "pere": "REPEAT LOVE",
+        "mere": "CHELSEA DU THENNEY",
+        "nomPereMere": "NEZ PERCE",
+        "numeroPere": "ZGdaZwABBQQG",
+        "numeroMere": "ZWB9ZAMIAwsQ",
+        "numeroPereMere": "ZGN8YQoFCwIB",
+        "numeroSirePere": "05032177R",
+        "numeroSireMere": "12201818D",
+        "numeroSirePereMere": "01358591U",
+        "sexe": "M",
+        "annee": 2019,
+        "age": 3,
+        "cvcId": 0,
+        "prenomProprietaire": "Christophe",
+        "nomProprietaire": "DAGNICOURT",
+        "numProprietaire": "YWt2bAIGfg",
+        "libelleProprietaire": "C. DAGNICOURT",
+        "prenomEntraineur": "Christophe",
+        "nomEntraineur": "DAGNICOURT",
+        "numEntraineur": "YWt2bAIGfg",
+        "libelleEntraineur": "C. DAGNICOURT",
+        "prenomJockey": "Christophe",
+        "nomJockey": "DAGNICOURT",
+        "numJockey": "YWt2bAIGfg",
+        "libelleJockey": "CH. DAGNICOURT",
+        "ferrure": "0",
+        "distance": 2050,
+        "reduction": "1'18\"7",
+        "temps": "2'41\"2",
+        "record": "1'18\"3",
+        "specialiteRecord": "A",
+        "gain": 6000,
+        "crackSeries": 7639,
+        "sommeReclame": 0,
+        "musique": "8a 1a 8a 7a",
+        "poids": 0,
+        "ordre": 8,
+        "rang": "7 ",
+        "rangInterne": 7,
+        "allocation": 210,
+        "nonPartant": false,
+        "idCasaque": "4198663",
+        "idCasaqueNew": "8477",
+        "nomj": "CH. DAGNICOURT",
+        "premiereFoisD4": false,
+        "premiereFoisDA": false,
+        "premiereFoisDP": false,
+        "premiereFoisFerrure": false,
+        "avisEntraineur": 3,
+        "avisEntraineurPartant": 3,
+        "avisEntraineurHeat": 0,
+        "idVideoHeat": "",
+        "idVideoInterviewAvantCourse": "",
+        "idVideoInterviewApresCourse": "",
+        "dateDerniereCourseRentree": "05/06/2022",
+        "avancement": "PAR",
+        "musiques": [
+          {
+            "perf": "8A",
+            "course": {
+              "key": "2022-06-05-3510-2",
+              "partantList": [
+                {
+                  "numSire": "19327285F",
+                  "numCheval": "ZWt8ZgUCCgYS",
+                  "nomCheval": "JUNIOR DU THENNEY",
+                  "rang": "08"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "1A",
+            "course": {
+              "key": "2022-05-22-203-6",
+              "partantList": [
+                {
+                  "numSire": "19327285F",
+                  "numCheval": "ZWt8ZgUCCgYS",
+                  "nomCheval": "JUNIOR DU THENNEY",
+                  "rang": "1 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "8A",
+            "course": {
+              "key": "2022-05-07-8002-3",
+              "partantList": [
+                {
+                  "numSire": "19327285F",
+                  "numCheval": "ZWt8ZgUCCgYS",
+                  "nomCheval": "JUNIOR DU THENNEY",
+                  "rang": "08"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "7A",
+            "course": {
+              "key": "2022-04-17-202-1",
+              "partantList": [
+                {
+                  "numSire": "19327285F",
+                  "numCheval": "ZWt8ZgUCCgYS",
+                  "nomCheval": "JUNIOR DU THENNEY",
+                  "rang": "7 "
+                }
+              ]
+            }
+          }
+        ],
+        "partantPresent": false,
+        "partantOrigine": false,
+        "gainsMoyensFr": 1500,
+        "firstAutostart": true,
+        "firstFrance": false,
+        "firstMonte": false,
+        "firstGP": false,
+        "firstCorde": false,
+        "firstJockey": false,
+        "firstSpecialiteMonte": false,
+        "firstReclame": false,
+        "firstPisteHerbe": false,
+        "firstPisteDur": false,
+        "courseRapprochee": false,
+        "changementEntraineur": false,
+        "nouveaurecord": false,
+        "firstFerrure": false,
+        "elev1": "YWt2bAIGfg",
+        "libelleElev1": "C. DAGNICOURT",
+        "nomElev1": "DAGNICOURT",
+        "elev2": "ZmJ6ZQYCZw",
+        "libelleElev2": "C. DAGNICOURT GELOT",
+        "nomElev2": "DAGNICOURT GELOT",
+        "elev3": "Y2N6ZAYCdw",
+        "libelleElev3": "N. DAGNICOURT GELOT",
+        "nomElev3": "DAGNICOURT GELOT",
+        "elev4": "YWJaYgoBdA",
+        "libelleElev4": "J. GELOT",
+        "nomElev4": "GELOT",
+        "recordAbsolu": false,
+        "forSale": false,
+        "nbCourseJockEntr": 4,
+        "nbVictJockEntr": 0,
+        "rapportProbable": 84
+      },
+      {
+        "numSire": "19337896X",
+        "numCheval": "ZWt8ZwUICwUM",
+        "nomCheval": "JAFAR DE FAEL",
+        "pere": "EASY DES RACQUES",
+        "mere": "AUDE DE FAEL",
+        "nomPereMere": "NOT DISTURB",
+        "numeroPere": "ZWZ7YQsGAAcG",
+        "numeroMere": "ZWJ8ZwAGBAEB",
+        "numeroPereMere": "ZGN8YQUGBAsN",
+        "numeroSirePere": "14459624R",
+        "numeroSireMere": "10332662U",
+        "numeroSirePereMere": "01357668Y",
+        "sexe": "H",
+        "annee": 2019,
+        "age": 3,
+        "cvcId": 0,
+        "prenomProprietaire": "Francis",
+        "nomProprietaire": "TARDIEU",
+        "numProprietaire": "bWBbZAQAag",
+        "libelleProprietaire": "F. TARDIEU",
+        "prenomEntraineur": "Alexandre",
+        "nomEntraineur": "BUISSON",
+        "numEntraineur": "YGt4YQoDaw",
+        "libelleEntraineur": "A. BUISSON",
+        "prenomJockey": "Yoann",
+        "nomJockey": "LEBOURGEOIS",
+        "numJockey": "YmJaZQoDcA",
+        "libelleJockey": "Y. LEBOURGEOIS",
+        "ferrure": "5",
+        "distance": 2050,
+        "reduction": "",
+        "temps": "",
+        "record": "1'16\"4",
+        "gain": 10720,
+        "crackSeries": 5200,
+        "sommeReclame": 0,
+        "musique": "9a 6a 1a 3a 5a (21) Da",
+        "poids": 0,
+        "ordre": 3,
+        "rang": "DA",
+        "rangInterne": 30,
+        "allocation": 0,
+        "nonPartant": false,
+        "idCasaque": "6447441",
+        "idCasaqueNew": "11177",
+        "nomj": "Y. LEBOURGEOIS",
+        "premiereFoisD4": false,
+        "premiereFoisDA": false,
+        "premiereFoisDP": false,
+        "premiereFoisFerrure": false,
+        "avisEntraineur": 2,
+        "avisEntraineurPartant": 2,
+        "avisEntraineurHeat": 0,
+        "idVideoHeat": "",
+        "idVideoInterviewAvantCourse": "",
+        "idVideoInterviewApresCourse": "",
+        "avancement": "PAR",
+        "musiques": [
+          {
+            "perf": "9A",
+            "course": {
+              "key": "2022-07-02-7502-1",
+              "partantList": [
+                {
+                  "numSire": "19337896X",
+                  "numCheval": "ZWt8ZwUICwUM",
+                  "nomCheval": "JAFAR DE FAEL",
+                  "rang": "09"
+                }
+              ]
+            }
+          },
+          {
+            "perf": "6A",
+            "course": {
+              "key": "2022-06-20-1400-6",
+              "partantList": [
+                {
+                  "numSire": "19328504F",
+                  "numCheval": "ZWt8ZgoFAgcS",
+                  "nomCheval": "JOKER DE L'EPINE",
+                  "rang": "3 "
+                },
+                {
+                  "numSire": "19327485N",
+                  "numCheval": "ZWt8ZgUECgYa",
+                  "nomCheval": "JAZZ MONEY",
+                  "rang": "4 "
+                },
+                {
+                  "numSire": "19337896X",
+                  "numCheval": "ZWt8ZwUICwUM",
+                  "nomCheval": "JAFAR DE FAEL",
+                  "rang": "6 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "1A",
+            "course": {
+              "key": "2022-02-22-601-7",
+              "partantList": [
+                {
+                  "numSire": "19337896X",
+                  "numCheval": "ZWt8ZwUICwUM",
+                  "nomCheval": "JAFAR DE FAEL",
+                  "rang": "1 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "3A",
+            "course": {
+              "key": "2022-01-27-6902-8",
+              "partantList": [
+                {
+                  "numSire": "19337896X",
+                  "numCheval": "ZWt8ZwUICwUM",
+                  "nomCheval": "JAFAR DE FAEL",
+                  "rang": "3 "
+                }
+              ]
+            }
+          },
+          {
+            "perf": "5A",
+            "course": {
+              "key": "2022-01-23-601-4",
+              "partantList": [
+                {
+                  "numSire": "19337896X",
+                  "numCheval": "ZWt8ZwUICwUM",
+                  "nomCheval": "JAFAR DE FAEL",
+                  "rang": "5 "
+                }
+              ]
+            }
+          }
+        ],
+        "partantPresent": false,
+        "partantOrigine": false,
+        "gainsMoyensFr": 1786,
+        "firstAutostart": false,
+        "firstFrance": false,
+        "firstMonte": false,
+        "firstGP": false,
+        "firstCorde": false,
+        "firstJockey": true,
+        "firstSpecialiteMonte": false,
+        "firstReclame": false,
+        "firstPisteHerbe": false,
+        "firstPisteDur": false,
+        "courseRapprochee": true,
+        "changementEntraineur": false,
+        "nouveaurecord": false,
+        "firstFerrure": false,
+        "elev1": "YWV3bQYDfA",
+        "libelleElev1": "V. LE PIVER",
+        "nomElev1": "LE PIVER",
+        "elev2": "",
+        "libelleElev2": " ",
+        "nomElev2": "",
+        "elev3": "",
+        "libelleElev3": " ",
+        "nomElev3": "",
+        "elev4": "",
+        "libelleElev4": " ",
+        "nomElev4": "",
+        "recordAbsolu": false,
+        "forSale": false,
+        "nbCourseJockEntr": 0,
+        "nbVictJockEntr": 0,
+        "rapportProbable": 12
+      }
+    ],
+    "infos": {
+      "rentree": [
+        {
+          "dateCourse": "05/06/2022",
+          "nomCheval": "JUNIOR DU THENNEY",
+          "numCheval": "ZWt8ZgUCCgYS",
+          "numSire": "19327285F",
+          "ordre": 8
+        }
+      ],
+      "courseRapprochee": [
+        {
+          "dateCourse": "02/07/2022",
+          "nomCheval": "JAFAR DE FAEL",
+          "numCheval": "ZWt8ZwUICwUM",
+          "numSire": "19337896X",
+          "ordre": 3
+        }
+      ],
+      "changementEntraineur": [
+        {
+          "nomCheval": "JUNIOR MESLOIS",
+          "numCheval": "ZWt8ZwYACwAS",
+          "numNouvelEntraineur": "ZmRaYgAFfg",
+          "numAncienEntraineur": "YGt3YAAGdQ",
+          "libelleNouvelEntraineur": "J. DAVID",
+          "libelleAncienEntraineur": "P. BELLOCHE",
+          "ordre": 1
+        }
+      ],
+      "nouveaurecord": [
+        {
+          "nomCheval": "JUNIOR MESLOIS",
+          "numCheval": "ZWt8ZwYACwAS",
+          "numSire": "19334093F",
+          "record": "1'16\"3",
+          "dateRecord": "16/06/2022",
+          "ancienRecord": "1'16\"8",
+          "dateAncienRecord": "07/09/2021",
+          "ordre": 1
+        }
+      ],
+      "ferrure": [
+        {
+          "nomCheval": "JAZZ MONEY",
+          "numCheval": "ZWt8ZgUECgYa",
+          "numSire": "19327485N",
+          "ferrure": "7",
+          "ordre": 2
+        }
+      ],
+      "firstAutostart": [
+        {
+          "nomCheval": "JAZZ MONEY",
+          "numCheval": "ZWt8ZgUECgYa",
+          "numSire": "19327485N",
+          "age": 0,
+          "ordre": 2
+        },
+        {
+          "nomCheval": "JOE LOUIS",
+          "numCheval": "ZWt8ZAoJAwoA",
+          "numSire": "19308919T",
+          "age": 0,
+          "ordre": 5
+        },
+        {
+          "nomCheval": "JOHNNY QUICK",
+          "numCheval": "ZWt8ZwQJCgQf",
+          "numSire": "19336987K",
+          "age": 0,
+          "ordre": 4
+        },
+        {
+          "nomCheval": "JUNIOR DU THENNEY",
+          "numCheval": "ZWt8ZgUCCgYS",
+          "numSire": "19327285F",
+          "age": 0,
+          "ordre": 8
+        }
+      ],
+      "firstCorde": [
+        {
+          "nomCheval": "JOHNNY QUICK",
+          "numCheval": "ZWt8ZwQJCgQf",
+          "numSire": "19336987K",
+          "age": 0,
+          "ordre": 4
+        }
+      ],
+      "firstJockey": [
+        {
+          "nomCheval": "JAZZ MONEY",
+          "numCheval": "ZWt8ZgUECgYa",
+          "numSire": "19327485N",
+          "numJockey": "YWt2ZgsGYA",
+          "libelleJockey": "THEO DUVALDESTIN",
+          "age": 0,
+          "ordre": 2
+        },
+        {
+          "nomCheval": "JUNIOR MESLOIS",
+          "numCheval": "ZWt8ZwYACwAS",
+          "numSire": "19334093F",
+          "numJockey": "YWN9YQYCfA",
+          "libelleJockey": "A. COLLETTE",
+          "age": 0,
+          "ordre": 1
+        },
+        {
+          "nomCheval": "JUDIYAMA",
+          "numCheval": "ZWt8ZwsABQEA",
+          "numSire": "19339072T",
+          "numJockey": "Y2J6YwUDdw",
+          "libelleJockey": "F. NIVARD",
+          "age": 0,
+          "ordre": 6
+        },
+        {
+          "nomCheval": "JAFAR DE FAEL",
+          "numCheval": "ZWt8ZwUICwUM",
+          "numSire": "19337896X",
+          "numJockey": "YmJaZQoDcA",
+          "libelleJockey": "Y. LEBOURGEOIS",
+          "age": 0,
+          "ordre": 3
+        }
+      ]
+    },
+    "perfCroisees": [],
+    "quinte": false,
+    "pick5": false,
+    "conditionsAgeSomme": [
+      {
+        "sommeMin": 0,
+        "sommeMax": 13000,
+        "ageMin": 3,
+        "ageMax": 3
+      }
+    ],
+    "ouverture": "TF",
+    "conditionAge": "Pour poulains entiers et hongres de 3 ans, n'ayant pas gagné 13.000.",
+    "cordePiste": "Corde à droite - 1.275 mètres environ (sable)",
+    "amateur": false,
+    "sommeRec1": 0,
+    "sommeRec2": 0,
+    "sommeRec3": 0
+  },
+  "expireAt": {
+    "$date": "2224-05-14T07:42:00.393Z"
+  },
+  "_class": "fr.secf.siteletrotws.domain.reunion.CourseHippodromeWrapper"
+}
