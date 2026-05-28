@@ -6,6 +6,7 @@ import { createRoot } from "react-dom/client";
 import { extractAppResult } from "./appResult.js";
 import { ProgramView } from "./components/ProgramView.js";
 import { PartantsView } from "./components/PartantsView.js";
+import { FavorisView } from "./components/FavorisView.js";
 
 type View =
   | { name: "program" }
@@ -74,7 +75,16 @@ function Inner({ app, view, setView, initialResult }: InnerProps) {
       />
     );
   }
-  if (view.name === "favoris" || view.name === "confrontation") {
+  if (view.name === "favoris") {
+    return (
+      <FavorisView
+        app={app}
+        initialResult={initialResult}
+        onBack={() => setView({ name: "program" })}
+      />
+    );
+  }
+  if (view.name === "confrontation") {
     return <div style={{ padding: 16, color: "#6b7280" }}>Bientôt disponible.</div>;
   }
   return (

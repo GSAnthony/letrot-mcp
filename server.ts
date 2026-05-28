@@ -10,6 +10,7 @@ import path from "node:path";
 import { z } from "zod";
 import { getMeetingsProgram } from "./src/tools/getMeetingsProgram.js";
 import { getRacePartants } from "./src/tools/getRacePartants.js";
+import { getRaceFavoris } from "./src/tools/getRaceFavoris.js";
 
 const DIST_DIR = import.meta.filename.endsWith(".ts")
   ? path.join(import.meta.dirname, "dist")
@@ -54,6 +55,25 @@ export function createServer(): McpServer {
     },
     async (args): Promise<CallToolResult> => {
       return await getRacePartants(args);
+    },
+  );
+
+  registerAppTool(
+    server,
+    "get_race_favoris",
+    {
+      title: "Letrot — Race Favoris",
+      description:
+        "Display the top favorites (best probable odds, or trainer opinion when odds are not yet published) for a race. Provide the race_id (same format as get_race_partants).",
+      inputSchema: {
+        race_id: z
+          .string()
+          .describe("Race identifier, e.g. '2026-05-29-7500-1'"),
+      },
+      _meta: { ui: { resourceUri } },
+    },
+    async (args): Promise<CallToolResult> => {
+      return await getRaceFavoris(args);
     },
   );
 

@@ -39,8 +39,12 @@ export async function getRacePartants(args: { race_id: string }): Promise<CallTo
   return buildAppResult("partants", race, buildPartantsSuggestions(race));
 }
 
-/** Top starters used to seed contextual follow-up prompts. */
-function rankPartants(partants: Partant[]): Partant[] {
+/**
+ * Rank starters from "most likely winner" to least. Uses probable odds
+ * (`rapportProbable`) when available; falls back to trainer opinion then
+ * start order — pre-race odds are typically 0 in the live payload.
+ */
+export function rankPartants(partants: Partant[]): Partant[] {
   const running = partants.filter((p) => !p.nonPartant);
   const withOdds = running.filter((p) => (p.rapportProbable ?? 0) > 0);
   if (withOdds.length > 0) {
