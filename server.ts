@@ -5,7 +5,9 @@ import {
 } from "@modelcontextprotocol/ext-apps/server";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import type { CallToolResult, ReadResourceResult } from "@modelcontextprotocol/sdk/types.js";
-import fs from "node:fs/promises";
+import crypto from "node:crypto";
+import fs from "node:fs";
+import fsp from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
 import { getMeetingsProgram } from "./src/tools/getMeetingsProgram.js";
@@ -15,6 +17,26 @@ import { getRaceFavoris } from "./src/tools/getRaceFavoris.js";
 const DIST_DIR = import.meta.filename.endsWith(".ts")
   ? path.join(import.meta.dirname, "dist")
   : import.meta.dirname;
+const APP_HTML_PATH = path.join(DIST_DIR, "mcp-app.html");
+
+/**
+ * Resource URI derived from a hash of the current `mcp-app.html` content.
+ * Hosts cache iframe resources by URI; bumping the URI on every UI change
+ * forces them to refetch — otherwise a freshly rebuilt UI gets shadowed by a
+ * stale cached iframe carrying old routing/views.
+ */
+const RESOURCE_URI = buildResourceUri();
+
+function buildResourceUri(): string {
+  try {
+    const buf = fs.readFileSync(APP_HTML_PATH);
+    const hash = crypto.createHash("sha1").update(buf).digest("hex").slice(0, 10);
+    return `ui://letrot/mcp-app-${hash}.html`;
+  } catch {
+    // Fallback if the HTML isn't on disk yet (dev cold start before vite build).
+    return "ui://letrot/mcp-app.html";
+  }
+}
 
 export function createServer(): McpServer {
   const server = new McpServer({
@@ -22,7 +44,7 @@ export function createServer(): McpServer {
     version: "1.0.0",
   });
 
-  const resourceUri = "ui://letrot/mcp-app.html";
+  const resourceUri = RESOURCE_URI;
 
   registerAppTool(
     server,
@@ -83,7 +105,7 @@ export function createServer(): McpServer {
     resourceUri,
     { mimeType: RESOURCE_MIME_TYPE },
     async (): Promise<ReadResourceResult> => {
-      const html = await fs.readFile(path.join(DIST_DIR, "mcp-app.html"), "utf-8");
+      const html = await fsp.readFile(APP_HTML_PATH, "utf-8");
       return {
         contents: [
           {
