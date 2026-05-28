@@ -1,8 +1,15 @@
 import { useEffect, useState } from "react";
 import type { App } from "@modelcontextprotocol/ext-apps";
 import type { CallToolResult } from "@modelcontextprotocol/sdk/types.js";
+import { extractAppResult, type Suggestion } from "../appResult.js";
 import { MeetingCard } from "./MeetingCard.js";
+import { Suggestions } from "./Suggestions.js";
 import styles from "./ProgramView.module.css";
+
+interface MeetingsData {
+  date: string;
+  meetings: any;
+}
 
 interface Props {
   app: App;
@@ -10,21 +17,10 @@ interface Props {
   onSelectRace: (raceId: string) => void;
 }
 
-function extractMeetingsData(result: CallToolResult): { date: string; meetings: any } | null {
-  if (result.structuredContent) return result.structuredContent as any;
-  const text = result.content?.find((c) => c.type === "text") as { text?: string } | undefined;
-  if (!text?.text) return null;
-  try {
-    return JSON.parse(text.text);
-  } catch {
-    return null;
-  }
-}
-
 export function ProgramView({ app, initialResult, onSelectRace }: Props) {
-  const [data, setData] = useState<{ date: string; meetings: any } | null>(
-    initialResult ? extractMeetingsData(initialResult) : null,
-  );
+  const initial = initialResult ? extractAppResult<MeetingsData>(initialResult) : null;
+  const [data, setData] = useState<MeetingsData | null>(initial?.data ?? null);
+  const [suggestions, setSuggestions] = useState<Suggestion[]>(initial?.suggestions ?? []);
   const [loading, setLoading] = useState(!initialResult);
   const [error, setError] = useState<string | null>(null);
 
@@ -38,10 +34,12 @@ export function ProgramView({ app, initialResult, onSelectRace }: Props) {
         if (cancelled) return;
         if (result.isError) {
           const text = result.content?.find((c) => c.type === "text") as { text?: string } | undefined;
-          setError(text?.text ?? "Failed to load meetings");
+          setError(text?.text ?? "Échec du chargement du programme");
           return;
         }
-        setData(extractMeetingsData(result));
+        const extracted = extractAppResult<MeetingsData>(result);
+        setData(extracted.data);
+        setSuggestions(extracted.suggestions);
       })
       .catch((e) => {
         if (!cancelled) setError(e instanceof Error ? e.message : String(e));
@@ -76,6 +74,7 @@ export function ProgramView({ app, initialResult, onSelectRace }: Props) {
           />
         ))
       )}
+      <Suggestions app={app} suggestions={suggestions} />
     </div>
   );
 }

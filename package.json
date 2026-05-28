@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/server.js",
   "scripts": {
-    "build": "cross-env INPUT=mcp-app.html vite build && tsc -p tsconfig.server.json",
+    "build": "cross-env INPUT=mcp-app.html vite build && tsc -p tsconfig.server.json && node scripts/copy-mocks.mjs",
     "watch": "cross-env INPUT=mcp-app.html vite build --watch",
     "serve": "tsx --watch main.ts",
     "dev": "cross-env NODE_ENV=development concurrently \"npm run watch\" \"npm run serve\"",
@@ -17,7 +17,6 @@
     "@modelcontextprotocol/sdk": "^1.29.0",
     "cors": "^2.8.6",
     "express": "^5.2.1",
-    "mongodb": "^7.2.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "zod": "^4.4.3"

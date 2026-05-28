@@ -31,41 +31,55 @@ export interface MeetingsProgram {
   meetings: unknown;
 }
 
+/**
+ * A starter as returned by the live `races/{raceId}/partants` endpoint.
+ * (Field names follow the Letrot API, hence the mix of FR/EN.)
+ */
 export interface Partant {
-  numSire?: string;
-  nomCheval?: string;
-  libelleJockey?: string;
-  libelleEntraineur?: string;
+  id?: string;
+  name?: string;
+  robe?: string;
+  sexe?: string;
+  annee?: number;
+  age?: number;
+  poids?: number;
+  crackSeries?: number | string;
   ferrure?: string;
   distance?: number;
-  poids?: number;
-  musique?: string;
+  driver?: string;
+  driverId?: string;
+  coach?: string;
+  coachId?: string;
+  avisEntraineur?: number;
+  song?: string;
   record?: string;
   specialiteRecord?: string;
-  gain?: number;
-  gainsMoyensFr?: number;
-  crackSeries?: number;
-  avisEntraineur?: number;
-  rapportProbable?: number;
-  ordre?: number;
+  earnings?: string;
+  earningsAverage?: string;
+  leavingNumber?: number;
   rang?: string;
+  formattedRank?: string | null;
+  rapportProbable?: number;
+  favoris?: boolean;
+  rankPriority?: number;
+  idCasaque?: string;
   nonPartant?: boolean;
 }
 
-export interface CourseHippodrome {
-  prix?: string;
-  nomHippodrome?: string;
+/** Full response shape of `races/{raceId}/partants`: race metadata + starters. */
+export interface RacePartants {
+  id?: string;
+  raceName?: string;
   numCourse?: number;
-  heureCourse?: string;
+  numReunion?: number;
+  hippodromeName?: string;
+  hippodromeNbr?: string;
+  discipline?: string;
   distance?: number;
   allocation?: number;
-  statut?: number;
-  discipline?: string;
-  partantList?: Partant[];
   countPartant?: number;
-}
-
-export interface RaceDocument {
-  _id: string;
-  courseHippodrome: CourseHippodrome;
+  quinte?: boolean;
+  pick5?: boolean;
+  premium?: boolean;
+  partants?: Partant[];
 }

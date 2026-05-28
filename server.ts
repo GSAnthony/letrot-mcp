@@ -44,11 +44,11 @@ export function createServer(): McpServer {
     {
       title: "Letrot — Race Partants",
       description:
-        "Get the partants (starters) for a specific race. Provide the race_id (format: YYYY-MM-DD-numHippodrome-numCourse).",
+        "Display the partants (starters) for a specific race from the Letrot races endpoint. Provide the race_id (format: YYYY-MM-DD-hippodromeNbr-raceNbr), available as the `id` field of each race in get_meetings_program.",
       inputSchema: {
         race_id: z
           .string()
-          .describe("Race identifier, e.g. '2022-07-08-1475-7'"),
+          .describe("Race identifier, e.g. '2026-05-29-7500-1'"),
       },
       _meta: { ui: { resourceUri } },
     },
