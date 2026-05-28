@@ -7,6 +7,7 @@ import { extractAppResult } from "./appResult.js";
 import { ProgramView } from "./components/ProgramView.js";
 import { PartantsView } from "./components/PartantsView.js";
 import { FavorisView } from "./components/FavorisView.js";
+import { ConfrontationView } from "./components/ConfrontationView.js";
 
 type View =
   | { name: "program" }
@@ -85,7 +86,13 @@ function Inner({ app, view, setView, initialResult }: InnerProps) {
     );
   }
   if (view.name === "confrontation") {
-    return <div style={{ padding: 16, color: "#6b7280" }}>Bientôt disponible.</div>;
+    return (
+      <ConfrontationView
+        app={app}
+        initialResult={initialResult}
+        onBack={() => setView({ name: "program" })}
+      />
+    );
   }
   return (
     <ProgramView

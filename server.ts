@@ -13,6 +13,7 @@ import { z } from "zod";
 import { getMeetingsProgram } from "./src/tools/getMeetingsProgram.js";
 import { getRacePartants } from "./src/tools/getRacePartants.js";
 import { getRaceFavoris } from "./src/tools/getRaceFavoris.js";
+import { getHorsesConfrontation } from "./src/tools/getHorsesConfrontation.js";
 
 const DIST_DIR = import.meta.filename.endsWith(".ts")
   ? path.join(import.meta.dirname, "dist")
@@ -96,6 +97,39 @@ export function createServer(): McpServer {
     },
     async (args): Promise<CallToolResult> => {
       return await getRaceFavoris(args);
+    },
+  );
+
+  registerAppTool(
+    server,
+    "get_horses_confrontation",
+    {
+      title: "Letrot — Horses Confrontation",
+      description:
+        "Compare two horses' shared race history (head-to-head) over a period. Provide the race_id (current race context) and EITHER horse_ids (preferred, two opaque ids from a partants result) OR horse_names (two horse names to resolve against the partants of race_id).",
+      inputSchema: {
+        race_id: z
+          .string()
+          .describe("Race identifier for context, e.g. '2026-05-29-7500-1'"),
+        horse_ids: z
+          .array(z.string())
+          .length(2)
+          .optional()
+          .describe("The two opaque horse ids (preferred)."),
+        horse_names: z
+          .array(z.string())
+          .length(2)
+          .optional()
+          .describe("Fallback: two horse names; resolved against the race's partants."),
+        period: z
+          .string()
+          .optional()
+          .describe("History window. Defaults to 'two_year'."),
+      },
+      _meta: { ui: { resourceUri } },
+    },
+    async (args): Promise<CallToolResult> => {
+      return await getHorsesConfrontation(args);
     },
   );
 
