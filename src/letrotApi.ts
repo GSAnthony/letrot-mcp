@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 
-export const LETROT_API_BASE = "https://www.letrot.com/v1/api";
+export const LETROT_API_BASE = "https://rec2.letrot.com/v1/api";
 
 /**
  * Default request headers. Some Letrot endpoints (e.g. cross-performance) reject
@@ -12,9 +12,27 @@ const DEFAULT_HEADERS: Record<string, string> = {
   "User-Agent":
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
     "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  Referer: "https://www.letrot.com/",
-  Origin: "https://www.letrot.com",
+  Referer: "https://rec2.letrot.com/",
+  Origin: "https://rec2.letrot.com",
 };
+
+/**
+ * Build the HTTP Basic Auth header for the (secured) rec2 host from the
+ * `LETROT_BASIC_AUTH_USER` / `LETROT_BASIC_AUTH_PASSWORD` environment variables.
+ * Throws a clear error when either is missing so a misconfiguration is never
+ * silently masked by a mock fallback.
+ */
+function basicAuthHeader(): Record<string, string> {
+  const user = process.env.LETROT_BASIC_AUTH_USER;
+  const pass = process.env.LETROT_BASIC_AUTH_PASSWORD;
+  if (!user || !pass) {
+    throw new Error(
+      "Missing Letrot Basic Auth credentials: set LETROT_BASIC_AUTH_USER and LETROT_BASIC_AUTH_PASSWORD",
+    );
+  }
+  const token = Buffer.from(`${user}:${pass}`).toString("base64");
+  return { Authorization: `Basic ${token}` };
+}
 
 interface FetchJsonOptions {
   /**
@@ -34,9 +52,12 @@ interface FetchJsonOptions {
  * failures throw.
  */
 export async function fetchJson(url: string, options: FetchJsonOptions = {}): Promise<unknown> {
+  // Resolved eagerly so a missing-credentials error always surfaces instead of
+  // being swallowed into the mock fallback below.
+  const authHeader = basicAuthHeader();
   try {
     const response = await fetch(url, {
-      headers: { ...DEFAULT_HEADERS, ...(options.headers ?? {}) },
+      headers: { ...DEFAULT_HEADERS, ...authHeader, ...(options.headers ?? {}) },
     });
     if (response.ok) {
       return await response.json();

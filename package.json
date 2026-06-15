@@ -7,7 +7,7 @@
   "scripts": {
     "build": "cross-env INPUT=mcp-app.html vite build && tsc -p tsconfig.server.json && node scripts/copy-mocks.mjs",
     "watch": "cross-env INPUT=mcp-app.html vite build --watch",
-    "serve": "tsx --watch main.ts",
+    "serve": "tsx --env-file-if-exists=.env --watch main.ts",
     "dev": "cross-env NODE_ENV=development concurrently \"npm run watch\" \"npm run serve\"",
     "start": "node dist/main.js",
     "typecheck": "tsc --noEmit"

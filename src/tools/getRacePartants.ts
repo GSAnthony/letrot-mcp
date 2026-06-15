@@ -1,15 +1,12 @@
 import type { CallToolResult } from "@modelcontextprotocol/sdk/types.js";
-import path from "node:path";
 import { fetchJson, LETROT_API_BASE } from "../letrotApi.js";
 import { buildAppResult, type Suggestion } from "../suggestions.js";
 import type { Partant, RacePartants } from "../types.js";
 
-const PARTANTS_MOCK_PATH = path.join(import.meta.dirname, "../mocks/partants.json");
-
 /** Fetch the partants (starters) of a race from the live Letrot endpoint. */
 export async function fetchRacePartants(raceId: string): Promise<RacePartants> {
   const url = `${LETROT_API_BASE}/races/${raceId}/partants`;
-  return (await fetchJson(url, { mockPath: PARTANTS_MOCK_PATH })) as RacePartants;
+  return (await fetchJson(url)) as RacePartants;
 }
 
 export async function getRacePartants(args: { race_id: string }): Promise<CallToolResult> {
